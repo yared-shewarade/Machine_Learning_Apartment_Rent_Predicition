@@ -76,7 +76,7 @@ def scraping():
     url_income = "http://www.energyjustice.net/justice/index.php"
     url_population = "https://www.freemaptools.com/find-population.htm"
     
-    executable_path = {'executable_path': 'chromedriver.exe'}
+    executable_path = {'executable_path': 'chromedriver'}
     browser = Browser('chrome', **executable_path, headless=False)
 
     global median_household_income
@@ -95,7 +95,7 @@ def scraping():
     
     browser.quit()
 
-    executable_path = {'executable_path': 'chromedriver.exe'}
+    executable_path = {'executable_path': 'chromedriver'}
     browser = Browser('chrome', **executable_path, headless=False)
     
     global population 
@@ -116,7 +116,7 @@ def scraping():
 
 # Scrape the built_year
     # set the chromedriver path
-    executable_path = {'executable_path': 'chromedriver.exe'}
+    executable_path = {'executable_path': 'chromedriver'}
     browser = Browser('chrome', **executable_path, headless=False)
 
     costar_url = "https://costar.com/"
@@ -150,7 +150,7 @@ def scraping():
 
 # Scrape walk scores
     # set the chromedriver path
-    executable_path = {'executable_path': 'chromedriver.exe'}
+    executable_path = {'executable_path': 'chromedriver'}
     browser = Browser('chrome', **executable_path, headless=False)
     walk_score_url = 'https://www.walkscore.com/'
     browser.visit(walk_score_url)
