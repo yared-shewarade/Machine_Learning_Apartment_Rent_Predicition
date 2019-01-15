@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Fair Rent</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="hero">
+            <div class="container" id="topcontainer">
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="{{ url_for('home') }}">Home</a>
+                            <a class="navbar-brand" href="{{ url_for('userinput') }}">Input</a>
+                            <a class="navbar-brand" href="{{ url_for('visualization') }}">Visualization</a>
+                        </div>
+                    </div>
+                </nav>
+                <!-- Tableau Graphs -->
+                <div class="container-fluid">
+                <div class="row" id="tableau">
+                
+                <div class="col-md-4">
+                    <div class='tableauPlaceholder' id='viz1547258048419' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProjectVis1&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FinalProjectVis1&#47;Story1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProjectVis1&#47;Story1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1547258048419');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                    </div>
+                </div>
+            <div class="row" id="tableau">
+                <div class="col-md-4">
+                    <div class='tableauPlaceholder' id='viz1547258130349' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProjectVis3&#47;Story2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FinalProjectVis3&#47;Story2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProjectVis3&#47;Story2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1547258130349');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                </div>
+            </div>
+            <div class="row" id="tableau"></div>
+                <div class="col-md-4">
+                    <div class='tableauPlaceholder' id='viz1547258161130' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProjectVis&#47;Story3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FinalProjectVis&#47;Story3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProjectVis&#47;Story3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1547258161130');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="page-footer font-small stylish-color-dark pt-4">
+        <!-- Footer Links -->
+            <div class="container text-center text-md-center" id="footer">
+                <!-- Grid row -->
+                <div class="row text-md-center" >
+                <!-- Grid column -->
+                <div class="col-md-4 mx-auto">
+                    <!-- Content -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Fair Rent</h5>
+                    <p>Immense appreciation to everyone who contributed to this project and made it a possiblity to check 
+                    if your rent is fair.
+                    </p>
+                </div>
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Participents</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.linkedin.com/in/joseph-reynolds-a2321766/!">Joe Reynolds</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/mendiolac/!">Camille Mendiola</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/shawn-dong/!">Shawn Dong</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Participents</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.linkedin.com/in/abhinav-koukutla-2a2b05167!">Abhi Koukutla</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/ruben-patino/!">Ruben Patiño</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/yared-shewarade-378aa414b/!">Yared Shewarade</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Sources</h5>
+                    <ul class="list-unstyled">
+                    <li>
+                        <a href="https://www.costar.com/">Co-Star</a>
+                    </li>
+                    <li>
+                        <a href="https://www.walkscore.com/">Walkscore</a>
+                    </li>
+                    <li>
+                        <a href="https://www.mapdevelopers.com/distance_from_to.php">Distance Calculator</a>
+                    </li>
+                    <li>
+                        <a href="http://www.energyjustice.net/justice/index.php">Household Income</a>
+                    </li>
+                    <li>
+                        <a href="https://www.freemaptools.com/find-population.htm">Population</a>
+                    </li>
+                    </ul>
+                </div>
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3" id="copyright" >© 2018 Copyright:
+                    <a href="https://mdbootstrap.com/education/bootstrap/">MDBootstrap.com</a>
+                </div>
+                <!-- Copyright -->
+            </div>
+        </footer>
+    
+        <!-- javascript -->
+        <script src="../static/js/app.js"></script>
+    </body>
+</html>
